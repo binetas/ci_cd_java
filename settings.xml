@@ -1,16 +1,12 @@
-<settings>
-	<servers>
-		<server>
-                        <!-- server id should be equal to repository id -->
-			<id>website</id>
-                        <!-- default nexus deploy user -->
-			<username>deployment</username>
-			<password>deployment123</password>
-		</server>
-		<server>
-                        <id>staging</id>
-                        <username>deployment</username>
-                        <password>deployment123</password>
-                </server>
-	</servers>
-</settings>
+<servers>
+  <server>
+    <id>test-snapshots</id>
+    <username>myname1</username>
+    <password>mypasswd1</password>
+  </server>
+  <server>
+    <id>test-releases</id>
+    <username>myname2</username>
+    <password>mypasswd2</password>
+  </server>
+</servers>
