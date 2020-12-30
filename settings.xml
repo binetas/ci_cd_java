@@ -1,7 +1,7 @@
 <servers>
-  <server>
-    <id>test-snapshots</id>
-    <username>admin</username>
-    <password>youssoupha</password>
-  </server>
+        <server>
+            <id>test-snapshots</id>
+            <username>admin</username>
+            <password>youssoupha</password>
+        </server>
 </servers>
